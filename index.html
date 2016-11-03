@@ -9,15 +9,14 @@
     <title>ProReklamu.com: Реклама, Маркетинг, PR, SEO</title>
 </head>
 <body>
-<div class="container cf">
+<div class="container">
     <header>
         <div class="header-top">
             <a href="#" class="logo"></a>
-            <!--<div class="btn-container">-->
             <div class="login-button"><i class="fa fa-sign-in" aria-hidden="true"></i> Войти</div>
-            <!--</div>-->
             <form action="#" method="post" class="search">
-                <input type="text" name="search-text" class="input-field" title="Search input filed" placeholder="Поиск по сайту">
+                <input type="text" name="search-text" class="input-field" title="Search input filed"
+                       placeholder="Поиск по сайту">
 
                 <button class="search-button" title="Search button" type="submit">найти</button>
             </form>
@@ -51,18 +50,35 @@
             </ul>
         </nav>
     </header>
-    <div class="col-right">
-        <ul>
-            <li class="col-right-menu"><a href="#">Самое популярное</a>
-                <!--<ul class="sub-col-right-menu">-->
-                    <!--<li><a href="#">Блокировшик рекламы в UC Browser для Android стал «умнее» и мощнее Блокировшик рекламы в UC Browser для Android стал «умнее» и мощнее</a></li>-->
-                    <!--<li><a href="#">Ремонт бытовой техники качественно и быстро в Москве и Подмосковье</a></li>-->
-                <!--</ul>-->
-            </li>
-            <li class="col-right-menu"><a href="#">Самое обсуждаемое</a></li>
-        </ul>
-    </div>
-</div>
-
+    <main>
+        <div class="col-left">
+            <div class="slider"><img src="images/10527.jpg" alt="Какая-то реклама"></div>
+        </div>
+        <div class="col-right">
+            <ul class="news-menu-header">
+                <li class="news-menu-header-item active"><a href="#">Самое популярное</a>
+                </li>
+                <li class="news-menu-header-item"><a href="#">Самое обсуждаемое</a></li>
+            </ul>
+            <div class="news-menu-container">
+                <div class="news-menu-list">
+                    <ul class="news-list">
+                        <li class="news-list-item"><a href="#"><img src="#" alt="Просто картинка">Блокировшик рекламы в
+                            UC Browser для Android стал «умнее» и мощнее<br>
+                            <span class="views">1000</span></a>
+                        </li>
+                        <li class="news-list-item"><a href="#"><img src="#" alt="Просто картинка">Что конкурентная
+                            разведка может сделать для вашей компании<br>
+                            <span class="views">1001</span></a>
+                        </li>
+                        <li class="news-list-item"><a href="#"><img src="#" alt="Просто картинка">Накрутка подписчиков
+                            Вконтакте по критериям<br>
+                            <span class="views">1002</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
